@@ -9,9 +9,24 @@ reports lightweight metrics and traces.
 
 ## Quick start
 
-Use Python 3.12 or newer. Run the commands from the project root. Choose the instructions for your operating system.
+Use Python 3.12 or newer. Git is the recommended way to get the project; ZIP instructions are included if you prefer not to use Git. For either method, run setup commands from the project root (the folder containing `requirements.txt`).
 
 ### Windows (PowerShell)
+
+**Option 1 — Clone with Git (recommended)**
+
+Install Git and Python 3.12 or newer, then open PowerShell and run:
+
+```powershell
+git clone https://github.com/mayanbhandari/unicorn-chatbot.git
+Set-Location unicorn-chatbot
+```
+
+**Option 2 — Download the ZIP**
+
+Download `unicorn-chatbot.zip` from the project or use GitHub's **Code → Download ZIP**. Extract it, open PowerShell in the extracted project folder (the folder containing `requirements.txt`), then continue with setup below.
+
+**Create the environment and install dependencies**
 
 ```powershell
 py -3 -m venv .venv
@@ -22,6 +37,21 @@ Copy-Item .env.example .env
 ```
 
 ### macOS (Terminal / zsh)
+
+**Option 1 — Clone with Git (recommended)**
+
+Install Git and Python 3.12 or newer, then open Terminal and run:
+
+```bash
+git clone https://github.com/mayanbhandari/unicorn-chatbot.git
+cd unicorn-chatbot
+```
+
+**Option 2 — Download the ZIP**
+
+Download `unicorn-chatbot-submission.zip` from the project or use GitHub's **Code → Download ZIP**. Extract it, open Terminal in the extracted project folder (the folder containing `requirements.txt`), then continue with setup below.
+
+**Create the environment and install dependencies**
 
 ```bash
 python3 -m venv .venv
